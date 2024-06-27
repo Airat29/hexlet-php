@@ -1,0 +1,11 @@
+{
+    "name": "airat/hexlet",
+    "description": "example package",
+    "authors": [
+        {
+            "name": "Airat29",
+            "email": "fat.airat@rambler.ru"
+        }
+    ],
+    "require": {}
+}
