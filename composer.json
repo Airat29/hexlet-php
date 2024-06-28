@@ -1,11 +1,22 @@
 {
-    "name": "airat/hexlet",
-    "description": "example package",
+    "name": "airat/hexlet-php",
+    "autoload": {
+        "files": [
+            "src/Runner.php"
+        ]
+    },
     "authors": [
         {
             "name": "Airat29",
             "email": "fat.airat@rambler.ru"
         }
     ],
-    "require": {}
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "scripts": {
+        "phpcs": [
+           "phpcs"
+        ]
+    }
 }
